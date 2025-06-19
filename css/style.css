@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-wrapper {
+    width: 150px;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.card_img {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.card_item {
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+
+.card_item:hover {
+    box-shadow: 0px 5px 15px 7px #b4b4b4;
+}
+
+.section_title {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 750;
+    font-size: 36px;
+}
+
+.book-btn {
+    padding: 5px 20px;
+    margin-bottom: 35px;
+}
+
+.book-btm {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.block_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.book {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s all linear;
+}
+
+.book:hover {
+    box-shadow: 0px 5px 15px 7px #b4b4b4;
+}
+
+.book-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    padding-top: 20px;
+}
+
+.book-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #585859;
+    line-height: 24px;
+}
+
+.carouse1 {
+    width: 120px !important;
+    height: 120px;
+    border-radius: 50%;
+    float: right;
+    margin: auto;
+}
+
+.carouse2 {
+    width: 600px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#footer {
+    padding: 50px 0 0 0;
+    background: #282531;
+    color: #CDCDCD;
+    font-family: 'Poppins', sans-serif;
+}
+
+.f_list>li>a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.f_text,
+.f_list>li>a {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.f_title {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+ul,
+li {
+    list-style: none;
+}
